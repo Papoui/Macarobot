@@ -1,0 +1,31 @@
+{
+  "name": "le-macarobot",
+  "version": "0.1.0",
+  "description": "Bot utilitaire et divertissement destiné originellement au serveur \"Le Macaronnier\" ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pap",
+  "license": "MIT",
+  "dependencies": {
+    "@giphy/js-fetch-api": "^1.5.9",
+    "@giphy/react-components": "^1.0.5",
+    "discord.js": "^12.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Papoui/Macarobot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Papoui/Macarobot/issues"
+  },
+  "homepage": "https://github.com/Papoui/Macarobot#readme"
+}
