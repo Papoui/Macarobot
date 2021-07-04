@@ -2,6 +2,7 @@ const fs = require('fs');
 const Discord = require('discord.js');
 const { PREFIX, TOKEN } = require('./config.json');
 
+
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
 client.cooldowns = new Discord.Collection();
@@ -29,7 +30,7 @@ client.once('ready', () => {
 	console.log('Ready!');
 });
 
-client.on('message', msg => {
+client.on('message', async msg => {
 	if (!msg.content.startsWith(PREFIX) || msg.author.bot) return;
 
 	const args = msg.content.slice(PREFIX.length).trim().split(/ +/);
@@ -74,5 +75,7 @@ client.on('message', msg => {
 	}
 	
 });
+
+
 
 client.login(TOKEN);
